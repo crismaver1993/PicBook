@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PicBook</string>
+
+    <string name="store_need">Storage permission is needed..</string>
+    <string name="camera_need">Camera permission is needed to take the picture</string>
+    <string name="no_store">Storage Permission was not granted</string>
+    <string name="no_camera">Camera Permission was not granted</string>
+    <string name="new_folder_instruction">Give a name to the new folder. If you do not give a name, It will not be create!</string>
+    <string name="newfolder_title">New Folder</string>
+    <string name="success_folder">Folder created...</string>
+    <string name="fail_folder">Give a name to your folder..Folder did not create..</string>
+    <string name="no_rootfolder">Root Folder is not exist...Restart aplication</string>
+
+    <string name="choose_folder">Choose a folder</string>
+  <!--  <string name="save_at">Save at</string>-->
+    <string name="cancel">Cancel</string>
+
+    <string name="folderrename_instruction">Give a new name to your Folder. If you do not give a name, It will not be change!</string>
+    <string name="rename">Rename</string>
+    <string name="move">Move</string>
+    <string name="load">Load</string>
+    <string name="success_renamed">Renamed..</string>
+    <string name="fail_rename_folder">Give a name to your Folder..Folder did not rename..</string>
+    <string name="delete"> Deleted..</string>
+    <string name="share">Share</string>
+    <string name="deleteaction">Delete</string>
+    <string name="fail_rename_file">Give a name to your File..File did not rename..</string>
+    <string name="rename_instruction_file">Give a new name to your file.If you do not give a name, It will not be change!</string>
+<string name="pictures">Pictures</string>
+    <string name="folders">Folders</string>
+    <string name="currentfolder">Current Folder:</string>
+    <string name="shareinvalid">Option only for Pictures..</string>
+    <string name="nomove">You should create a folder to use this function...</string>
+    <string name="loadFile">Option just for Folders</string>
+
+    <string name="confirmRemove">¿Delete?</string>
+    <string name="msgConfirmRemove">You will delete ALL inside of this FOLDER...\n\n Once you removed you can no longer retrieve your file...</string>
+
+    <string name="moveFolder">Only Pictures </string>
+    <string name="helpTitle">Help!</string>
+    <string name="help">
+        1. <b>PERMISSION</b>\n\n
+       <i>Storage:</i>It is important that grants the permits application to store and access their media to create new files.\n\n
+        <i>Camera:</i> This permit allows access to the camera and take pictures.\n\n
+        <b><i>Note:</i></b>Only devices 23 marshmallow or older need APi grant permits.\n\n
+
+        2. <b>FOLDERS</b>\n\n
+        <i>New Folder: </i> To create a new folder you must assign a name, otherwise you will not be created.\n\n
+        <i>Rename: </i> Hold down the folder to RENAME until the pop-up menu appears. Daz click RENAME and assign the new name. If you do not give your folder a new name will not be renamed.\n\n
+        <i>Delete: </i> Hold down the FOLDER you want to remove until the pop-up menu appears. Daz click Confirm and ready. deleted folder.\n\n
+        <b>¡Attention! </b> If you delete you can not recover the folder or content that is content.\n\n
+
+        <i>Share: </i>You can only share photos!\n\n
+
+        3.<b>PHOTOS</b>\n\n
+         <i>New Photo: </i> To take a picture, click on the yellow button and click on the option contains a camera as an icon. You need to choose your camera by default.\n\n
+        <i>Rename: </i> Hold down the PHOTO you want RENAME until the pop-up menu appears. Daz click RENAME and assign the new name. If you do not give your photo a new name will not be renamed.\n\n
+        <i>Delete: </i> Hold down the PHOTO you want to REMOVE until the pop-up menu appears. Daz click Confirm and ready. PHOTO eliminated.\n\n
+        <b>¡Attention! </b>If you delete you can not recover the folder or content that is content.\n\n
+        <i>Share: </i>Hold down the PHOTO you want to SHARE until the pop-up menu appears. You choose the means by which you want to share and ready.
+    </string>
+
+
+    <string name="currentfile">Current Photo:</string>
+    <string name="titleSharePhoto">Share Photo</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PicBook</string>
+
+    <string name="store_need">Se necesita permiso de almacenamiento...</string>
+    <string name="camera_need">Se necesita permiso para acceder a la Cámara</string>
+    <string name="no_store">El PERMISO de almacenamiento no se concedió</string>
+    <string name="no_camera">El PERMISO de Cámara no se concedió</string>
+    <string name="new_folder_instruction">Debe dar un nombre a la nueva carpea, sino NO se creará!</string>
+    <string name="newfolder_title">Nueva Carpeta</string>
+    <string name="success_folder">Carpeta creada...</string>
+    <string name="fail_folder">Da un nombre a tu carpeta..Carpeta NO creada..</string>
+    <string name="no_rootfolder">Carpeta principal no Existe...Reinicie la aplicación </string>
+
+
+    <string name="choose_folder">Elige una carpeta</string>
+   <!-- <string name="save_at">Guardar en</string>-->
+    <string name="cancel">Cancelar</string>
+
+    <string name="folderrename_instruction">Da un nuevo nombre a tu carpeta, sino no será cambiado..</string>
+    <string name="rename">Renombrar</string>
+    <string name="move">Mover</string>
+    <string name="load">Cargar</string>
+    <string name="success_renamed">Renombrado..</string>
+    <string name="fail_rename_folder">Da un nuevo nombre al archivo, Carpeta NO renombrada..</string>
+    <string name="delete"> Eliminado..</string>
+    <string name="deleteaction">Eliminar</string>
+
+    <string name="fail_rename_file">Da un nombre a tu archivo..Archivo no modificado..</string>
+    <string name="rename_instruction_file">Da un nuevo nombre a tu archivo, sino este no será modificado..</string>
+
+    <string name="pictures">Fotos</string>
+    <string name="folders">Carpetas</string>
+    <string name="share">Compartir</string>
+    <string name="currentfolder">Carpeta Actual:</string>
+    <string name="shareinvalid">Opción solo Fotos...</string>
+    <string name="moveFolder">Opción solo Fotos... </string>
+    <string name="loadFile">Opción solo para Carpetas</string>
+    <string name="nomove">Deberías crear una carpeta para usar esta función...</string>
+
+    <string name="confirmRemove">¿Eliminar?</string>
+    <string name="msgConfirmRemove">Vas a eliminar este elemento y todo lo que contenta.\n\n Una vez eliminado no podrás recuperarlo...</string>
+
+    <string name="helpTitle">Ayuda!</string>
+    <string name="help">
+        1. <b>PERMISOS</b>\n\n
+       <i>Almacenamiento:</i>Es importante que le conceda a la aplicación permisos para almacenar y acceder a su media para poder crear nuevos archivos.\n\n
+        <i>Cámara:</i> Este permiso permite el acceso a la cámara y tomar fotografías.\n\n
+        <b><i>Nota:</i></b> Sólo dispositivos con MarshMallow o APi 23 en adelante necesitan otorgar permisos, el resto los tre por Default.\n\n
+
+        2. <b>CARPETAS</b>\n\n
+        <i>Nueva Carpeta: </i> Para crear una nueva carpeta debes asignarle un nombre, d elo contrario no será creada.\n\n
+        <i>Renombrar: </i> Deja presionada la CARPETA que deseas RENOMBRAR hasta que aparezca el menú emergente. Daz click en RENOMBRAR y asignas el nuevo nombre. Si no das un nuevo nombre tu carpeta no será renombrada.\n\n
+        <i>Eliminar: </i> Deja presionada la CARPETA que deseas ELIMINAR hasta que aparezca el menú emergente. Daz click en Confirmar y listo. Carpeta  y todos sus archivos serán eliminados.\n\n
+        <b>¡Cuidado! </b> Si eliminas no podrás recuperar la carpeta ni el contenido que esta contenta.\n\n
+
+        <i>Compartir:</i>Solo puedes compartir FOTOGRAFÍAS...\n\n
+
+        3.<b>FOTOGRAFÍAS</b>\n\n
+         <i>Nueva Foto: </i> Para tomar una FOTO, da click en el botón amarillo y da click en la opció con una Cámara como icono. Es importante que elijas tu cámara por default.\n\n
+        <i>Renombrar: </i> Deja presionada la FOTOGRAFÍA que deseas RENOMBRAR hasta que aparezca el menú emergente. Daz click en RENOMBRAR y asignas el nuevo nombre. Si no das un nuevo nombre tu FOTO no será renombrada.\n\n
+        <i>Eliminar: </i> Deja presionada la FOTOGRAFÍA que deseas ELIMINAR hasta que aparezca el menú emergente. Daz click en Confirmar y listo. FOTOGRAFÍA eliminada.\n\n
+        <b>¡Cuidado!</b> Si eliminas no podrás recuperar la carpeta ni el contenido que esta contenta.\n\n
+        <i>Compartir: </i>Deja presionada la FOTOGRAFÍA que deseas COMPARTIR hasta que aparezca el menú emergente. Eliges el medio por el que deseas COMPARTIR y listo.
+    </string>
+
+    <string name="currentfile">Foto Actual:</string>
+    <string name="titleSharePhoto">Compartir foto</string>
+</resources>

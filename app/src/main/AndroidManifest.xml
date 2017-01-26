@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dot7.livre">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/picbook_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/menu">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/menu" />
+
+        <activity
+            android:name=".ExplorerActivity"
+            android:theme="@style/menu" />
+        <activity
+            android:name=".PictureViewActivity"
+            android:theme="@style/menu" />
+        <!-- <receiver android:name=".UninstallIntentReceiver">
+             <intent-filter android:priority="0">
+                 <action android:name="android.intent.action.QUERY_PACKAGE_RESTART" />
+                 <data android:scheme="package" />
+             </intent-filter>
+         </receiver>-->
+
+    </application>
+
+
+</manifest>

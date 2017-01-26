@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemrename"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/rename"/>
+    <item
+        android:id="@+id/itemmove"
+        android:icon="@drawable/ic_move"
+        android:orderInCategory="100"
+        android:title="@string/move"/>
+
+    <item
+        android:id="@+id/itemload"
+        android:icon="@drawable/ic_load"
+        android:orderInCategory="100"
+        android:title="@string/load"/>
+
+    <item
+        android:id="@+id/itemremove"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="100"
+        android:title="@string/deleteaction"/>
+
+    <item
+        android:id="@+id/itemshare"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="100"
+        android:title="@string/share"/>
+
+</menu>
